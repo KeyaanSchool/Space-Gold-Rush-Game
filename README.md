@@ -79,6 +79,6 @@ An event block is used to execute code when the restart button sprite is clicked
 3. The same button click noise is used (previously used for the difficulty buttons).
 4. The title screen is hidden (which showed the game over messages and the amount of coins collected after the UFO hit the player).
 5. The `runGame()` function is run to start the game all over again.
-Note that the difficulty cannot be adjusted once chosen, as the restart button immediately starts the game without showing the difficulty menu. This is intentional. To chamnge the difficulty mode of the game, you will need to restart it.
+Note that the difficulty cannot be adjusted once chosen, as the restart button immediately starts the game without showing the difficulty menu. This is intentional. To change the difficulty mode of the game, you will need to restart it.
 
 ![alt text](image-8.png)
