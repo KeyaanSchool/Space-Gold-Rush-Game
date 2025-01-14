@@ -55,7 +55,7 @@ This function is run regardless of the difficulty mode the player chooses. It is
 
 ### `hunt()` Function
 **Steps**
-The hunt() function is used to make the coins and UFO move. As shown in the image below uses if statements and the otherSpeed variable to work. Here is how the code is executed:
+The hunt() function is used to make the coins and UFO move. As shown in the image below, it uses if statements and the otherSpeed variable to work. This is how the code works:
 1. A random integer is chosen between 0 and 5. If the chosen integer is 0, this changes the movement direction of the sprite by a random amount, meaning that the UFO can fly in a curved path as well
 2. The sprite’s speed is determined by the `otherSpeed` variable, which is dependant on the difficulty mode as mentioned earlier.
 3. If the sprite touches the edges of the map, it is prevented from moving any further. Instead the sprite’s direction is changed to a random integer between 135 to 225, creating an effect that resembles a bouncing ball.
