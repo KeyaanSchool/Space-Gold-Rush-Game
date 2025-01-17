@@ -32,8 +32,8 @@ This is the documentation for the game "Space Gold Rush" created in Code.org's s
 
 There are 3 event blocks that recognize when one of the difficulty mode buttons are clicked and sets the enemy UFO and coin speeds accordingly. The main variable to take note of that is located under these event blocks is the `otherSpeed` variable. This variable represents the speed for both the coins and UFO. I could have chosen to separate the speeds of the coins and the UFO but then thought that having the coins move at higher speeds with increasing difficulty was reasonable. This also meant that both objects could use the same function to control their movements. Here are the enemy UFO and coin speeds for each of difficulty:\
 **Easy/Ez mode:** `otherSpeed` is set to 10.\
-**Medium/Mid mode:** `otherSpeed` is set to 13.\
-**Hard/AHH! mode:** `otherSpeed` is set to 16.
+**Medium/Mid mode:** `otherSpeed` is set to 12.\
+**Hard/AHH! mode:** `otherSpeed` is set to 14.
 
 ![alt text](image-5.png)
 
